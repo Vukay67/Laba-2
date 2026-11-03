@@ -93,14 +93,51 @@ int main()
 //     else
 //         cout<<"Не принадлежит";
 
-// Задания
-// 1
-    double a, b;
-    if ( a <= 0 )
-        b = 0;
-    else if ( a > 0 && a <=1 )
-        b = pow(a, 2) - a;
-    else
-        b = pow(x, 2) - sin;
+// // Задания
+// // 1
+//     double a, b, pi = 4.0 * atan(1.0);
+//     if ( a <= 0 )
+//         b = 0;
+//     else if ( a > 0 && a <=1 )
+//         b = pow(a, 2) - a;
+//     else
+//         b = pow(a, 2) - sin(pi * pow(a, 2));
+
+// // 2
+//     int a, b, c, di;
+//     di = pow(b, 2) - 4 * a * c;
+//     if (di > 0){
+//         double x1, x2;
+//         x1 = -b + sqrt(di);
+//         x2 = -b - sqrt(di);
+//         cout<<"x1 = "<<x1<<"x2 = "<<x2;
+//     }
+//     else if (di == 0){
+//         double x;
+//         x = -b / 2 * a;
+//         cout<<"x = "<<x;
+//     }
+//     else 
+//         cout<<"Корней нет";
+
+// // 3
+//     int side_1, side_2, side_3;
+//     cout<<"Введите первую сторону: ";
+//     cin>>side_1;
+//     cout<<"Введите вторую сторону: ";
+//     cin>>side_2;
+//     cout<<"Введите третью сторону: ";
+//     cin>>side_3;
+
+//     if( (side_1 + side_2 > side_3 || side_1 + side_3 > side_2 || side_2 + side_3 > side_1) && ( abs(side_1 - side_2) < side_3 || abs(side_1 - side_3) < side_2 || abs(side_3 - side_2) < side_1 ) )
+//         cout<<"True";
+//     else
+//         cout<<"False";
+
+// 4
+    
+
+
+    
     return 0;
 }
